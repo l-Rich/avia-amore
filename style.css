@@ -72,11 +72,40 @@ main > * {
 
 /* YOUR CODE HERE */
 @media screen and (max-width: 768px) {
-  body{
+  main{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin-left: 50px;
-    margin-right: 50px;
+    align-items: flex-start;
+    width: 100%
   }
+
+  header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  nav{
+    margin-top: 20px;
+  }
+
+  .airplane-list-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%
+  }
+  .airplane-card{
+    width: max-content;
+    margin-top: 0px;
+    margin-left: 5px;
+  }
+  h2{
+    display: flex;
+    margin-left: 16px;
+  }
+  header{
+    margin-left: 16px;
+  }
+
 }
